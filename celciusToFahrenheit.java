@@ -8,6 +8,6 @@ class temperature{
 	
 	int c = (a * 9/5) + 32;
 	
-	System.out.println("Temperature in Fahrenheit = "+ c);
+	System.out.println("Temperature in Fahrenheit  = "+ c);
 	}
 	}
