@@ -3,13 +3,13 @@ class perimeter{
     public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Give length and width  ");
-	double l,w;
-	l= sc.nextInt();
-	w= sc.nextInt();
+	double length,width;
+	length= sc.nextInt();
+	width= sc.nextInt();
 
 	
-	double c = 2 * (l + w) ;
+	double perimeter = 2 * (length + width) ;
 	
-	System.out.println(" Perimeter of a rectangle. is = "+ c);
+	System.out.println(" Perimeter of a rectangle is = "+ perimeter);
 	}
 	}

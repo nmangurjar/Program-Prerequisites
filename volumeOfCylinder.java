@@ -2,13 +2,13 @@ import java.util.*;
 class cylinder{
     public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
-	System.out.println("Give Radius anf height ");
-	double a,h;
-	a= sc.nextInt();
-	h= sc.nextInt();
+	System.out.println("Give Radius and height ");
+	double radius,height;
+	radius= sc.nextInt();
+	height= sc.nextInt();
 	
-	double c = 3.141 * a * a * h ;
+	double volume = 3.141 * radius * radius * height ;
 	
-	System.out.println("Volume of Cylinder = "+ c);
+	System.out.println("Volume of Cylinder = "+ volume);
 	}
 	}

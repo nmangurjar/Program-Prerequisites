@@ -3,11 +3,11 @@ class circle{
     public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Give Radius ");
-	double a;
-	a= sc.nextInt();
+	double radius;
+	radius = sc.nextInt();
 	
-	double c = 3.141 * a * a ;
+	double area = 3.141 * Math.pow(radius, 2) ;
 	
-	System.out.println("Area of circle = "+ c);
+	System.out.println("Area of circle = "+ area);
 	}
 	}

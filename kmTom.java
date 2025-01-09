@@ -3,13 +3,13 @@ class distance{
     public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Give distance in kilometers  ");
-	double a;
+	double distanceInKm;
 	
-	a= sc.nextInt();
+	distanceInKm= sc.nextInt();
 
 	
-	double c = a * 0.621371;
+	double distanceInMiles = distanceInKm * 0.621371;
 	
-	System.out.println("Distance in miles is = "+ c);
+	System.out.println("Distance in miles is = "+ distanceInMiles);
 	}
 	}
